@@ -1,0 +1,38 @@
+{
+  "title": "Employee Address resource",
+  "description": "Employee Address resource object",
+  "type": "object",
+  "properties": {
+    "line1": {
+      "description": "line1 address of employee",
+      "type": "string"
+    },
+    "line2": {
+      "description": "line2 address of employee",
+      "type": "string"
+    },
+    "city": {
+      "description": "line1 address of employee",
+      "type": "string"
+    },
+    "state": {
+      "description": "line1 address of employee",
+      "type": "string"
+    },
+    "country": {
+      "description": "line1 address of employee",
+      "type": "string"
+    },
+    "zip_code": {
+      "description": "line1 address of employee",
+      "type": "string"
+    }
+  },
+  "required" : [
+    "line1",
+    "city",
+    "state",
+    "country",
+    "zip_code"
+  ]
+}

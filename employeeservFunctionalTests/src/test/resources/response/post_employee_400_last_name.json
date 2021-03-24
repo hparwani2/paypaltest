@@ -1,0 +1,12 @@
+{
+  "status": "BAD_REQUEST",
+  "code": 400,
+  "message": "Validation Errors",
+  "severity": "ERROR",
+  "body": [
+    {
+      "field": "lastName",
+      "value": "must not be null"
+    }
+  ]
+}
